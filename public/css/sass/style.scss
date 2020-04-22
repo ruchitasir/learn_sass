@@ -1,0 +1,22 @@
+$my_favorite_color: powderblue;
+$my_second_favorite_color: bisque;
+
+h1{
+    color: $my_favorite_color;
+    &:hover{
+        color: $my_second_favorite_color;
+    }
+}
+
+nav{
+    ul{
+        margin:0;
+        padding: 0;
+        list-style:none;
+        background-color: green;
+    }
+    li{
+        display: inline-block;
+        background-color: yellow;
+    }
+}

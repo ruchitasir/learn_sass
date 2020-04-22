@@ -1,0 +1,14 @@
+h1 {
+  color: powderblue; }
+  h1:hover {
+    color: bisque; }
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: green; }
+
+nav li {
+  display: inline-block;
+  background-color: yellow; }
